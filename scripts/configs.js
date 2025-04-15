@@ -39,7 +39,7 @@ function buildConfigURL(environment) {
   if (env !== 'prod') {
     fileName = `configs-${env}.json`;
   }
-  const configURL = new URL(`${window.location.origin}/${fileName}`);
+  const configURL = new URL(`${getOrigin()}/${fileName}`);
   return configURL;
 }
 
