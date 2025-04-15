@@ -1,4 +1,4 @@
-import { getHref, getOrigin } from './scripts'; //Top of the file Ex: line no : 1
+import { getHref, getOrigin } from './scripts.js'; //Top of the file Ex: line no : 1
 
 const ALLOWED_CONFIGS = ['prod', 'stage', 'dev'];
 
